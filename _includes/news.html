@@ -1,5 +1,7 @@
+<p>
 {% for item in site.data.news.news limit:include.limit%}
 
-    {{ item.date }} : {{ item.content }}
+    {{ item.date }} : {{ item.content }}<br />
 
 {% endfor %}
+</p>
