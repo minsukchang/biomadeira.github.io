@@ -16,7 +16,7 @@ baseurl: /
 author: Minsuk Chang
 title: Minsuk Chang | Welcome to my homepage
 description: Personal Landing Page
-avatar: me.png
+avatar: me_crop.png
 
 # Contacts
 email: minsuk@kaist.ac.kr
@@ -26,6 +26,10 @@ urequest: Upon request
 
 # Social Usernames for Twitter, Github, Medium, Linkedin
 username: minsukchang
+twitter: minsuk_chang
+linkedin: minsuk.chang
+steemit: mswords
+
 
 # Research Outputs
 google_scholar: 1j2nBpoAAAAJ
