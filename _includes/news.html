@@ -1,5 +1,5 @@
 {% for item in site.data.news.news limit:include.limit%}
 <div>
-    <p >{{ item.date | date_to_long_string }} : {{ item.content }}</p>
+    <p >{{ item.date | date: "%m/%Y" }} : {{ item.content }}</p>
 </div>
 {% endfor %}
