@@ -1,0 +1,5 @@
+{% for news in site.news %}
+<div>
+    <p >{{ news.date | date_to_long_string }} : {{ news.content }}</p>
+</div>
+{% endfor %}

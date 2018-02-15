@@ -2,29 +2,28 @@
 layout: layout
 ---
 <div class="container">
-  <div class="row">
-     <div class="col-md-3" style="text-align:center;">
-        <div class="avatar">
-    	   <img class="rounded-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image" Height="150">
-        </div>
-        <h5>Minsuk Chang</h5>
-         {% include social.html %}
+    <div class="row">
+        <div class="col-md-3" style="text-align:center;">
+            <div class="avatar">
+    	        <img class="rounded-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image" Height="150">
+            </div>
+        <h4>Minsuk Chang</h4>
+            {% include social.html %}
     </div>
     <div class="col-md-9">
-      <h3><strong>Hi! :) My name is Minsuk Chang</strong></h3>
-        <p> I'm a PhD student in the <a href="cs.kaist.ac.kr"></a> School of Computing</a> at <a href="www.kaist.ac.kr"> KAIST </a> advised by Juho Kim.
-            <b> I build interactive systems powered by statistical inference on large scale interaction data. </b>
+        <h2><strong>Hi! :) My name is Minsuk Chang</strong></h2>
+        <p><a> I'm a PhD student in the <a href="cs.kaist.ac.kr"></a> School of Computing</a> at <a href="www.kaist.ac.kr"> KAIST </a>
+            advised by <a href="juhokim.com" Juho Kim </a>.<i> I build interactive systems powered by statistical inference on large scale interaction data. </i>
             I am an active member of <a href="kixlab.org"> KIXLAB </a>since its day one, and we're part of the bigger <a href="hci.kaist.ac.kr"> HCI @ KAIST</a> group.
         </p>
         <p> <b> One-liner Research Objective </b></p>
-        <p>I aim to build interfaces that promote learning for both humans and machines. </p>
+        <p> I aim to build interfaces that promote learning for both humans and machines. </p>
+        <p> </p>
 
-
-      <h4><strong>Latest Publications</strong></h4>
-      <p><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty045/4829754">
-        JABAWS 2.2 - Distributed Web Services for Bioinformatics: Protein Disorder, Conservation and RNA Secondary Structure</a></p>
-      <h4><strong>Latest Articles</strong></h4>
-      <p><a href="https://medium.com/@{{ site.username }}/3d-printing-protein-models-made-simple-dd902cd627ce">3D printing protein models made simple</a></p>
+        <h4><strong>Latest News</strong></h4>
+        {% include news.html %}
+        <h4><strong>Latest Articles</strong></h4>
+        <p><a href="https://medium.com/@{{ site.username }}/3d-printing-protein-models-made-simple-dd902cd627ce">3D printing protein models made simple</a></p>
     </div>
   </div>
 </div>
