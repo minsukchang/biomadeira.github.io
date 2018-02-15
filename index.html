@@ -7,22 +7,22 @@ layout: layout
             <div class="avatar">
     	        <img class="rounded-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image" Height="150">
             </div>
-        <h4>Minsuk Chang</h4>
+        <h3>Minsuk Chang</h3>
             {% include social.html %}
         </div>
         <div class="col-md-9">
-            <h2><strong>Hi! :) My name is Minsuk Chang. </strong></h2>
+            <h3><strong>Hi! :) My name is Minsuk Chang. </strong></h3>
             <p><a> I'm a PhD student in the <a href="cs.kaist.ac.kr"></a> School of Computing</a> at <a href="www.kaist.ac.kr"> KAIST </a>
                 advised by <a href="juhokim.com"> Juho Kim </a>. I build interactive systems powered by statistical inference on large scale interaction data.
                 I am an active member of <a href="kixlab.org"> KIXLAB </a>since its day one, and we're part of the bigger <a href="hci.kaist.ac.kr"> HCI @ KAIST</a> group.
             </p>
-            <h4><strong> One-liner Research Objective </strong></h4>
+            <h5><strong> One-liner Research Objective </strong></h5>
             <p> I aim to build interfaces that promote learning for both humans and machines. </p>
 
-            <h4><strong>Latest News</strong></h4>
-            {% include news.html %}
-            
-            <h4><strong>What I do: </strong></h4>
+            <h5><strong>Latest News</strong></h5>
+            {% include news.html limit=4 %}
+
+            <h5><strong>What I do: </strong></h5>
             <p><ul>
             <li>I build interfaces using data-driven computational interaction models to support computationally rational user scenarios.</li>
             <li>I use human computation, machine learning and statistical inference on naturally crowdsourced instructions to mine human semantics layers like explanations, reasoning, consequences and causal relationships.</li>
