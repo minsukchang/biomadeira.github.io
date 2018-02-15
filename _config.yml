@@ -14,7 +14,7 @@ plugins: [jekyll-feed]
 url: http://minsukchang.com/
 baseurl: /
 author: Minsuk Chang
-title: Minsuk Chang | Welcome to my homepage
+title: Minsuk Chang
 description: Personal Landing Page
 avatar: me2.png
 
@@ -27,7 +27,7 @@ urequest: Upon request
 # Social Usernames for Twitter, Github, Medium, Linkedin
 username: minsukchang
 twitter: minsuk_chang
-linkedin: minsuk.chang
+linkedin: minsuk
 steemit: mswords
 
 
