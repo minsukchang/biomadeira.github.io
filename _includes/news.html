@@ -1,5 +1,5 @@
-{% for news in site.news %}
+{% for item in site.news.news %}
 <div>
-    <p >{{ news.date | date_to_long_string }} : {{ news.content }}</p>
+    <p >{{ item.date | date_to_long_string }} : {{ item.content }}</p>
 </div>
 {% endfor %}
