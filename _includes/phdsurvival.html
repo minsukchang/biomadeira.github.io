@@ -1,0 +1,11 @@
+<p>
+    {% for item in site.data.phdsurvival.guide %}
+    <h3> {{ item.category }} </h3>
+    <ul>
+        <li><a href="{{ item.link }}"> {{ item.title }} </a></li>
+            <ul>
+                <li>{{ item.desc }}</li>
+            </ul>
+    </ul>
+    {% endfor %}
+</p>

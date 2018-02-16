@@ -1,0 +1,47 @@
+
+guide:
+  - category: Books about writing
+    - title: How to Write a Lot: A Practical Guide to Productive Academic Writing (Lifetools: Books for the General Public)
+      link: https://www.amazon.com/How-Write-Lot-Practical-Productive/dp/1591477433
+      desc: useful habits for writing and doing research
+
+            1) write first, then do research
+
+            2) write regularly. get in the routine.
+
+            3)
+    - title: The Elements of Style, Fourth Edition
+      desc: references while writing
+
+  - category: Life in Academia
+    - title: The Ph.D. Grind  by Philip Guo
+
+    - title: A PhD Is Not Enough!: A Guide to Survival in Science
+      desc: 0) Research agenda/vision is important
+
+            1) how to find a mentor / advisor --> prominent famous people?
+
+            2)
+
+    - title: The Professor Is In: The Essential Guide To Turning Your Ph.D. Into a Job
+    - title: Next Gen PhD: A Guide to Career Paths in Science
+
+  - category: Learning & Creativity
+    - title: Lifelong Kindergarten: Cultivating Creativity through Projects, Passion, Peers, and Play (MIT Press)
+    - title: Design for How People Learn
+    - title: How People Learn: Brain, Mind, Experience, and School: Expanded Edition
+    - title: Richard Mayer's Multimedia Learning
+
+  - category: HCI
+    - title: Computational Interaction
+    - title: The Design of Everyday Things: Revised and Expanded Edition
+    - title: Universal Principles of Design, Revised and Updated: 125 Ways to Enhance Usability, Influence Perception, Increase Appeal, Make Better Design Decisions, and Teach through Design
+    - title: The Human Use Of Human Beings: Cybernetics And Society (The Da Capo series in science)
+    - title: The Sciences of the Artificial
+    - title: Research Methods in Human-Computer Interaction
+    - title: Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (Voices That Matter)
+
+  - category: Statistical Learning
+    - title: Computer Age Statistical Inference: Algorithms, Evidence, and Data Science
+    - title: Elements of Causal Inference: Foundations and Learning Algorithms
+    - title: Deep Learning
