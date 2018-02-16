@@ -1,10 +1,12 @@
 <p>
     {% for item in site.data.phdsurvival.guide %}
     <h3> {{ item.category }} </h3>
+    {% assign sorted_items = (item.resources | sort: 'title' %}
+    {% for i in sorted_items %}
     <ul>
-        <li><a href="{{ item.link }}"> {{ item.title }} </a></li>
+        <li><a href="{{ i.link }}"> {{ i.title }} </a></li>
             <ul>
-                <li>{{ item.desc }}</li>
+                <li>{{ i.desc }}</li>
             </ul>
     </ul>
     {% endfor %}
