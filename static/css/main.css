@@ -34,3 +34,7 @@ body {
 .social{
   word-spacing: 5px;
 }
+
+.hidden{
+  display: none;
+}
