@@ -11,7 +11,7 @@ plugins: [jekyll-feed]
 
 ###############################################################################
 # Page Personal Details
-url: http://minsukchang.com/
+url: http://www.minsukchang.com/
 baseurl: /
 author: Minsuk Chang
 title: Minsuk Chang
